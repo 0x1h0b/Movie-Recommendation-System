@@ -8,7 +8,9 @@ Movies Data collected from below sources:-
 
 Total Movies count after preprocessing : 47k (approx.)
 
+
 **Movies count (2013-2020)**
+
 ![Output](img/Output2.png "Sample Output")
 
 
