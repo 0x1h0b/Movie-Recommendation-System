@@ -8,9 +8,10 @@ Movies Data collected from below sources:-
 
 Total Movies count after preprocessing : 47k (approx.)
 
-**Movies count (1970-2012)**
-![Output](img/Output1.png "Sample Output1")
-
-
 **Movies count (2013-2020)**
 ![Output](img/Output2.png "Sample Output")
+
+
+**Movies count (1970-2012)**
+![Output1](img/Output1.png "Sample Output1")
+
