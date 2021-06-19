@@ -23,3 +23,11 @@ The final Output (cleaned and preprocessed dataset), i have uploaded it on kaggl
 **Example**: if a user likes movies such as ‘The Prestige’ then we can recommend him the movies of ‘Christian Bale’ or movies with the genre ‘Thriller’ or maybe even movies directed by ‘Christopher Nolan’. So what happens here the recommendation system checks the past preferences of the user and find the film “The Prestige”, then tries to find similar movies to that using the information available in the database such as the lead actors, the director, genre of the film, production house, etc and based on this information find movies similar to “The Prestige”.
 
 The filtration strategy is based on the data provided about the items . The algorithm recommends products that are similar to the ones that a user has liked in the past. This similarity (generally cosine similarity) is computed from the data  we have about the items.
+
+#### Cosine matrix
+Its a text similarity metric , helps us in determining similarity between 2 text documents irrespective of their size. (in our case its a string not docs)
+here the entire string is transformed and represented in n-dimensional vector space and the similarity metric measures the cosine of angle between 2 such vectors to determine their similarity . cosine value ranges from 0 to 1 , 0 being not simillar and 1 as 100% simillar.
+
+Here in this [kaggle notebook](https://www.kaggle.com/himanshubag/notebook-movierecommend/notebook) you can see the code on how i have computed the cosine matrix.
+
+The output pickle files for above mentioned notebook can be accessed [here](https://www.kaggle.com/himanshubag/notebook-movierecommend/output)
