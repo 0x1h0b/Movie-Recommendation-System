@@ -31,3 +31,8 @@ here the entire string is transformed and represented in n-dimensional vector sp
 Here in this [kaggle notebook](https://www.kaggle.com/himanshubag/notebook-movierecommend/notebook) you can see the code on how i have computed the cosine matrix.
 
 The output pickle files for above mentioned notebook can be accessed [here](https://www.kaggle.com/himanshubag/notebook-movierecommend/output)
+
+Above mentioned pickle files are very big , in order to easily use in the main code . those matrix have been reduced by only storing the top 50 cosine
+values for each movie . As in the cosine matrix each movie is mapped with every other movie its dimension was (28k,28k) and (19k,19k) for list 1 and list2.
+Now its (28k,50) and (19k,50) for list1 and list2. these files are present in `./data/`.
+
